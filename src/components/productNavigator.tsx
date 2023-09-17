@@ -3,7 +3,6 @@ import './productNavigator.css';
 import { Product } from '../types/product';
 import { Button } from 'react-bootstrap';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'; // Import the Font Awesome icons
-import mf from '../data/trim 01.jpg'
 type ScrollDirection = 'prev' | 'next';
 
 interface ProductNavigatorProps {
@@ -71,7 +70,7 @@ const ProductNavigator: React.FC<ProductNavigatorProps> = ({ products }) => {
               <div className="product-features">
                 <ul>
                   {product.features.map((feature: string, index: number) => (
-                    <li key={index}>{feature}</li>
+                    <li className='product-navigator-li' key={index}>{feature}</li>
                   ))}
                 </ul>
               </div>
