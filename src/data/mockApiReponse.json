@@ -1,0 +1,50 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "M50",
+        "price": 65795,
+        "image": "trim 01.jpg",
+        "features": [
+          "Velour floor mats",
+          "Sun protection glass",
+          "Automatic Stability Control (ASC)",
+          "Adaptive M suspension",
+          "Storage for wireless charging",
+          "Cruise control with brake assist",
+          "Automatic tailgate operation"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "M Sport",
+        "price": 65795,
+        "image": "trim 02.jpg",
+        "features": [
+          "Velour floor mats",
+          "Sun protection glass",
+          "Automatic Stability Control (ASC)",
+          "Adaptive M suspension",
+          "Storage for wireless charging",
+          "Cruise control with brake assist",
+          "Automatic tailgate operation"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Sport",
+        "price": 65795,
+        "image": "trim 03.jpg",
+        "features": [
+          "Velour floor mats",
+          "Sun protection glass",
+          "Automatic Stability Control (ASC)",
+          "Adaptive M suspension",
+          "Storage for wireless charging",
+          "Cruise control with brake assist",
+          "Automatic tailgate operation"
+        ]
+      }
+    ]
+  }
+  

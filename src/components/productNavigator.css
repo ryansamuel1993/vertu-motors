@@ -1,0 +1,94 @@
+/* productCard.css */
+.product-card {
+  background-color: #f8f6f6;
+  border: 1px solid #eff4ef;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 14px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.product-card h3 {
+  margin: 0px;
+  color: #565a56;
+}
+
+.product-image img {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.product-features {
+  margin-left: 5px;
+  text-align: start;
+}
+
+.price-label {
+  color: #8a8989;
+}
+
+.product-price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: rgb(23, 22, 22);
+}
+
+/* productNavigator.css */
+.product-scroll-container {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.product-card.centered {
+  transform: scale(1.2);
+}
+
+.product-card.blurred {
+  filter: blur(4px);
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-navigator-container {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.left-arrow-container {
+  margin: 5px;
+}
+
+.right-arrow-container {
+  margin: 5px;
+}
+.arrow-button:hover {
+  color: #007bff; /* Change the arrow color on hover */
+}
